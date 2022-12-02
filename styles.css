@@ -1,0 +1,11 @@
+
+.box{
+    background-color: blueviolet;
+    width: 10em;
+    height: 10em;
+    transition:all 3s ease-in-out
+}
+.box:hover{
+    background-color: aqua;
+    transition:all 5s 
+}

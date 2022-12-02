@@ -7,11 +7,15 @@
 }
 .box:hover{
     background-color: aqua;
+    width: 30em;
+    height: 30em;
     transition:all 5s 
 }
-.p{
+p{
+    background-color: deeppink;
     overflow: hidden;
-    animation:typing 35 linear infinite steps(24,end);
+    animation:typing 24s steps(24,end);
+    white-space:nowrap;
 }
 
 @keyframes typing {
@@ -23,4 +27,3 @@
     }
 }
     
-}

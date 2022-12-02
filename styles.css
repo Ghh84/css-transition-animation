@@ -9,3 +9,18 @@
     background-color: aqua;
     transition:all 5s 
 }
+.p{
+    overflow: hidden;
+    animation:typing 35 linear infinite steps(24,end);
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+    
+}

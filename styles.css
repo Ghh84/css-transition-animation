@@ -11,10 +11,13 @@
     height: 30em;
     transition:all 5s 
 }
+.container{
+    width: fit-content;
+}
 p{
     background-color: deeppink;
     overflow: hidden;
-    animation:typing 24s steps(24,end);
+    animation:typing 4s steps(40,end) infinite;
     white-space:nowrap;
 }
 
